@@ -1,0 +1,73 @@
+Started by user builder
+Running as SYSTEM
+Building remotely on BuildMonster2 (none_unity_builder unity_builder_xcode_9.0.1 unity_builder unity_builder_xcode_10 unity_builder_xcode_10.1 unity_builder_xcode_11.0 mac unity_builder_xcode_11.2.1) in workspace /tmp/workspace/BM6-Dashboard-Build-Unity-App
+[BM6-Dashboard-Build-Unity-App] $ /bin/sh -xe /var/folders/zv/mwx__3nj5yqdnxzvs1kw_cp00000gn/T/jenkins9032138355917977011.sh
++ '[' -z '' ']'
++ export builderExecutable=/Volumes/BuildMachine/Applications/TTBuilder.app/Contents/Resources/Java/TTBuilder87049.jar
++ builderExecutable=/Volumes/BuildMachine/Applications/TTBuilder.app/Contents/Resources/Java/TTBuilder87049.jar
++ '[' false = true ']'
++ '[' true = true ']'
++ export MIN_SUPPORTED_XCODE_VERSION=10.1
++ MIN_SUPPORTED_XCODE_VERSION=10.1
++ java -cp /Volumes/BuildMachine/Applications/TTBuilder.app/Contents/Resources/Java/TTBuilder87049.jar com.tabtale.ttbuilder.batch.TTBuilderMain -job BM6-Dashboard-Build-Unity-App -node BuildMonster2 -buildnumber 16428 -w /tmp/workspace/BM6-Dashboard-Build-Unity-App -url http://jenkins.tabtale.com/job/BM6-Dashboard-Build-Unity-App/16428/console -doc '' -tab unity -mode test -env '' -debugScheme false -unityDevops master -store apple -lifeCycle cocoPlay -comment ''\''2020-03-17 10:46:01 testddna'\''' -bundleId com.babyeducationtoys.fashionstyle -paidVersion false -sdkVersion '' -superViserBundleId '' -superViserBundleIdFullVersion '' -unityVersion '' -unityLogging false -email cocodev@tabtale.com -resourcesPath '' -iosIconPath '' -ios7IconPath '' -androidIconpath '' -provisionFilePath '' -androidInfoPathPath '' -androidSV false -appRowSheetUUID '' -mainBuildLink '' -gitRepository '' -gitBranch '' -token 8bf3ce41-7028-4ffd-8984-60def7b8daba -alm-config-url http://com.tabtale.builds.s3.amazonaws.com/buildSnapshots/8bf3ce41-7028-4ffd-8984-60def7b8daba/alm_title.json -psdk-config-url http://com.tabtale.builds.s3.amazonaws.com/buildSnapshots/8bf3ce41-7028-4ffd-8984-60def7b8daba/psdk.json -status-report-url http://tt-AppTesting-APPSDB.us-west-2.elasticbeanstalk.com/rest/builds/8bf3ce41-7028-4ffd-8984-60def7b8daba/buildStatus -itc false -build-from-dashboard true -fly2TestJobName TTFlight-Upload-App-Prod
+[TTBuilder] ###################################
+[TTBuilder] ##### [start] TTBuilder build #####
+[TTBuilder] ###################################
+[TTBuilder] Failed to init components versions, e: Cannot run program "/Users/tabtale/tools/gradle/bin/gradle": error=2, No such file or directory
+[TTBuilder] Checking required machine mounts
+[TTBuilder] Needed mounts exists
+[TTBuilder] TTBuilder version: 87049
+[TTBuilder] ****************************************
+[TTBuilder] Build from dashboard
+[TTBuilder] ****************************************
+[TTBuilder] [Start] Send dashboard status request
+[TTBuilder] [Start] Send post request: http://tt-AppTesting-APPSDB.us-west-2.elasticbeanstalk.com/rest/builds/8bf3ce41-7028-4ffd-8984-60def7b8daba/buildStatus?status=started&buildLogUrl=http%3A%2F%2F192.168.200.11%2Fjob%2FBM6-Dashboard-Build-Unity-App%2F16428%2F
+[TTBuilder] [End] Send post request
+[TTBuilder] [End] Send dashboard status request
+[TTBuilder] Build mode: test
+[TTBuilder] Setting build properties
+[TTBuilder] set build machine: BuildMonster2
+[TTBuilder] Jenkins WORKSPACE path is: /tmp/workspace/BM6-Dashboard-Build-Unity-App
+[TTBuilder] Application set: /unity
+[TTBuilder] Main Build Link: 
+[TTBuilder] dbURL: http://com.tabtale.builds.s3.amazonaws.com/buildSnapshots/8bf3ce41-7028-4ffd-8984-60def7b8daba/alm_title.json
+[TTBuilder] gatewayURL: http://com.tabtale.builds.s3.amazonaws.com/buildSnapshots/8bf3ce41-7028-4ffd-8984-60def7b8daba/psdk.json
+[TTBuilder] DB request: http://com.tabtale.builds.s3.amazonaws.com/buildSnapshots/8bf3ce41-7028-4ffd-8984-60def7b8daba/alm_title.json
+[TTBuilder] verify configuration for store: apple
+[TTBuilder] initDBInfoForStore store: apple, paidVersion: false
+[TTBuilder] initDBInfoForStore storeKey: apple
+[TTBuilder] DB - getAppInfo
+[TTBuilder] DB - Warning !!! The following data is missing from the Apps DB: unityVersion
+[TTBuilder] DB - orientation: landscape
+[TTBuilder] DB - brands: ["CP"]
+[TTBuilder] DB - app - backward compatible - psdkInjection: false
+[TTBuilder] DB - unityBuild: true
+[TTBuilder] DB - gitRepository: Cocomyboutique
+[TTBuilder] DB - Warning !!! The following data is missing from the Apps DB: gitBranch
+[TTBuilder] DB - windowsBuild: false
+[TTBuilder] DB - gamePlatform: unity
+[TTBuilder] DB - gameGraphicalEngine: unity
+[TTBuilder] initDBInfoForStore storeKey: apple exist
+[TTBuilder] DB - psdkInjection: true
+[TTBuilder] DB - getStoreInfo: apple
+[TTBuilder] DB - unityVersion: 2018.4.1
+[TTBuilder] DB - accountPrefix: com.babyeducationtoys
+[TTBuilder] DB - store - psdkInjection: true
+[TTBuilder] DB - gitBranch: dev
+[TTBuilder] DB - splashVideo: false
+[TTBuilder] DB - enforceAndroidPermissions: false
+[TTBuilder] DB - bundleId: com.babyeducationtoys.fashionstyle
+[TTBuilder] DB - deviceName: Super Stylist
+[TTBuilder] DB - appleId: 1441648201
+[TTBuilder] DB - minXcodeVersion: 11.2.1
+[TTBuilder] DB - Warning !!! The following data is missing from the Apps DB: flurryKey
+[TTBuilder] DB - Warning !!! The following data is missing from the Apps DB: testingFlurryKey
+[TTBuilder] DB - Warning !!! The following data is missing from the Apps DB: adKeyBanneriPad
+[TTBuilder] DB - Warning !!! The following data is missing from the Apps DB: adKeyBanneriPhone
+[TTBuilder] DB - Warning !!! The following data is missing from the Apps DB: adKeyInteriPad
+[TTBuilder] DB - Warning !!! The following data is missing from the Apps DB: adKeyInteriPhone
+[TTBuilder] DB - Warning !!! The following data is missing from the Apps DB: adKey
+[TTBuilder] DB - Warning !!! The following data is missing from the Apps DB: interstitialAdKey
+[TTBuilder] DB - Warning !!! The following data is missing from the Apps DB: mediator
+[TTBuilder] DB - inAppItems-Non-Consumables: stylishplay,removeads
+
